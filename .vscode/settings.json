@@ -1,0 +1,125 @@
+{
+  // Files
+  "files.autoSave": "onWindowChange",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".styleintrc": "json",
+    ".prettierrc": "json"
+  },
+
+  // Editor
+  "editor.fontFamily": "Fira Code",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.rulers": [80, 120],
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": false,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false, // Default: true
+  "editor.suggestSelection": "first",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  // Workbench
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.preferredDarkColorTheme": "Dracula",
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.labelFormat": "short",
+
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.variables": {
+    "lang": "pt-br"
+  },
+
+  // Eslint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // CodeLens
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+
+  // Live Server
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // Material Icon Theme
+  "material-icon-theme.files.associations": {
+    "jest-integration.config.js": "jest",
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  },
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
+  },
+
+  // Javascript/Typescript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.formatOnSave": true // Default: false
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true // Default: false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false // Default: false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "javascript.suggest.paths": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.suggest.paths": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+
+  // Visual Studio IntelliCode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // Terminal
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 16,
+
+  "merge-conflict.autoNavigateNextConflict.enabled": true
+}
